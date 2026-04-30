@@ -4,7 +4,6 @@ A safety system that uses an MQ-2 gas sensor to detect LPG, smoke, methane, and 
 
 ### **Circuit Diagram**
 ![Circuit Diagram](arduino_gas_sensor.png)
-![Demo](demo.gif)
 
 
 ### **How It Works**
