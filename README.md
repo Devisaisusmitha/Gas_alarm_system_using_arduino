@@ -50,24 +50,24 @@ This demonstrates ADC, sensor interfacing, and threshold-based alarm systems.
 File: `Gas_Sensor_Alarm.ino`
 
 ### **How to Use**
-1.Clone or download this repository.
-2.Open Gas_Sensor_Alarm.ino in Arduino IDE.
-3.Build the circuit as per the diagram.
-4.Select Board: Arduino Uno and correct COM PortClick.
-5.UploadOpen Serial Monitor at 9600 baud.
-6.The MQ-2 sensor needs 20-30 seconds preheat time after power-on.
-7.Introduce gas/lighter near sensor to see values increase and alarm trigger.
+1. Clone or download this repository.
+2. Open Gas_Sensor_Alarm.ino in Arduino IDE.
+3. Build the circuit as per the diagram.
+4. Select Board: Arduino Uno and correct COM PortClick.
+5. UploadOpen Serial Monitor at 9600 baud.
+6. The MQ-2 sensor needs 20-30 seconds preheat time after power-on.
+7. Introduce gas/lighter near sensor to see values increase and alarm trigger.
 
 ### **Key Concepts Learned**
-1.Analog Sensors: MQ-2 outputs variable voltage based on gas concentration
-2.ADC Thresholding: Using if(sensorvalue >= 150) to trigger actions.
-3.Gas Sensor Calibration: Threshold 150 is for demo. Real projects need calibration with known gas standards.
-4.**Safety Systems:** Combining visual LED + audible buzzer for alerts.
-5.**Serial Monitoring:** Debugging sensor values in real-time using Serial.println()
-6.**tone() Function:** Generating audio frequencies for buzzer alarms
+1. Analog Sensors: MQ-2 outputs variable voltage based on gas concentration
+2. ADC Thresholding: Using if(sensorvalue >= 150) to trigger actions.
+3. Gas Sensor Calibration: Threshold 150 is for demo. Real projects need calibration with known gas standards.
+4. **Safety Systems:** Combining visual LED + audible buzzer for alerts.
+5. **Serial Monitoring:** Debugging sensor values in real-time using Serial.println()
+6. **tone() Function:** Generating audio frequencies for buzzer alarms
 
 ### **Important Safety Notes**
-1.**Calibration Required:** The threshold 150 is for Tinkercad/demo only. For real use, calibrate with proper gas standards.
-2.**Preheat Time:** MQ-2 needs ∼20 seconds to heat up before giving stable readings.
-3.**Not for Life Safety:** This is an educational project. Do not use for actual life-critical gas leak detection without certification.
-4.**Ventilation:** Test with small gas amounts in ventilated area only
+1. **Calibration Required:** The threshold 150 is for Tinkercad/demo only. For real use, calibrate with proper gas standards.
+2. **Preheat Time:** MQ-2 needs ∼20 seconds to heat up before giving stable readings.
+3. **Not for Life Safety:** This is an educational project. Do not use for actual life-critical gas leak detection without certification.
+4. **Ventilation:** Test with small gas amounts in ventilated area only
