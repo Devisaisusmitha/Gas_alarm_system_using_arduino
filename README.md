@@ -47,7 +47,7 @@ This demonstrates ADC, sensor interfacing, and threshold-based alarm systems.
 | Buzzer - | GND |
 
 ### **Code**
-File: `Gas_Sensor_Alarm.ino`
+File: `interfacing_gas_sensor_with_arduino1.ino`
 
 ### **How to Use**
 1. Clone or download this repository.
@@ -70,4 +70,4 @@ File: `Gas_Sensor_Alarm.ino`
 1. **Calibration Required:** The threshold 150 is for Tinkercad/demo only. For real use, calibrate with proper gas standards.
 2. **Preheat Time:** MQ-2 needs ∼20 seconds to heat up before giving stable readings.
 3. **Not for Life Safety:** This is an educational project. Do not use for actual life-critical gas leak detection without certification.
-4. **Ventilation:** Test with small gas amounts in ventilated area only
+4. **Ventilation:** Test with small gas amounts in ventilated area only.
